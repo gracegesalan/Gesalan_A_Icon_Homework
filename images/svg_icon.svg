@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/main.css">
-    <title>.: Icon Marketplace :.</title>
-</head>
-<body>
-    <header>
-        <h1 class="hidden">My Super Awesome Icon Marketplace</h1>
-        <h2>this is the Header</h2>
-        <!-- place your placeholder / mocked up header/nav stuff here-->
-    </header>
-    
-    <section class="icons">
-        <h2>all my awesome icons</h2>
-        <!-- icon artwork goes here -->
-        <div>
-            <img src="images/svg_icon.jpg" alt="bitmap graphic">
-        </div>
-
-        <div>
-            <img src="images/svg_icon.svg" alt="vector graphic">
-        </div>
-        <div>
-            <!-- inline SVG starts here -->
-            <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 166.69 167.01">
   <defs>
     <style>
@@ -156,22 +127,3 @@
     <circle class="cls-5" cx="83.49" cy="83.36" r="74.9" transform="translate(-11.52 153.31) rotate(-81.32)"/>
   </g>
 </svg>
-            <!-- inline SVG ends here -->
-        </div>
-
-        <div>
-            <object data="images/svg_icon.svg" type="image/svg+xml"></object>
-        </div>
-
-    </section>
-    
-    <footer>
-        <h1 class="hidden">footer</h1>
-        <h2>footer content here</h2>
-        <!-- put your mocked up footer stuff here -->
-    </footer>
-
-    <!-- javascript linkes always go here at the very bottom of the page -->
-    <script src="js/main.js"></script>
-</body>
-</html>
